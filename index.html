@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="img/logo.png">
+    <title>Association Don'UTC</title>
+</head>
+
+<body class="bg-slate-700 text-white">
+
+    <nav>
+        <div class="container mx-auto px-6 py-4 gap-x-4 flex justify-center items-center text-center">
+            <img id="logo" src="img/logo.png" class="absolute left-6 h-12 invisible md:visible">
+            <a class="rounded py-1 px-2 font-bold text-xs md:text-base hover:bg-slate-600" href="#accueil">Accueil</a>
+            <a class="rounded py-1 px-2 font-bold text-xs md:text-base hover:bg-slate-600" href="#collecte-utc">Collecte
+                à l'UTC</a>
+            <a class="rounded py-1 px-2 font-bold text-xs md:text-base hover:bg-slate-600" href="#dons">Les différents
+                dons</a>
+            <a class="rounded py-1 px-2 font-bold text-xs md:text-base hover:bg-slate-600" href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <section id="accueil" class="py-16 px-5">
+        <div class="flex flex-col text-center justify-center items-center gap-y-6">
+            <h1 class="text-2xl md:text-4xl font-semibold">
+                Association Don'UTC - Compiègne
+            </h1>
+            <div class="flex flex-col w-full md:w-3/4 gap-y-2">
+                <p>
+                    L'association Don'UTC s'occupe principalement de l'organisation et de la promotion des collectes de
+                    sang qui ont lieu une fois par semestre à BF.
+                </p>
+                <p>
+                    Cependant, Don'UTC a également pour vocation de réaliser divers projets en relation avec nos
+                    valeurs&nbsp;: don, partage, aide, générosité.
+                </p>
+                <p>
+                    Alors, si tu veux t'impliquer dans l'organisation des collectes de sang ou si tu as un projet qui te
+                    tient à cœur, n'attends plus&nbsp;: rejoins-nous&nbsp;!
+                </p>
+                <p>
+                    N’hésite pas à nous contacter pour toute question relative aux différents dons, ou si tu as des
+                    questions sur l’association&nbsp;!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="collecte-utc" class="py-16 px-5 bg-slate-800">
+        <div class="flex flex-wrap justify-center items-center">
+            <div class="w-full md:w-1/3 p-4 mx-2 text-center">
+                <h1 class="text-2xl">Collecte du XX/XX/2023</h1>
+                <p>
+                    *Infos collecte*
+                </p>
+            </div>
+            <div class="w-full md:w-1/3 p-4 mx-2 text-center">
+                <a class="rounded-full py-2 px-4 text-md lg:text-2xl bg-red-700 hover:bg-red-800" href="#">
+                    Prendre rendez-vous
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="dons" class="py-16 px-5">
+        <h1 class="text-center text-3xl w-full font-semibold">Les différents types de don</h1>
+        <div class="mx-auto mt-4 flex justify-center">
+            <span class="inline-block h-1 w-40 rounded-full bg-blue-500"></span>
+            <span class="mx-1 inline-block h-1 w-3 rounded-full bg-blue-500"></span>
+            <span class="inline-block h-1 w-1 rounded-full bg-blue-500"></span>
+        </div>
+        <div class="grid grid-col-1 md:grid-cols-2 w-full lg:w-4/5 gap-8 items-center justify-center mt-10 mx-auto">
+            <div class="order-2 md:order-1">
+                <svg class="mx-auto w-20 h-20 lg:w-40 lg:h-40" xmlns="http://www.w3.org/2000/svg"
+                    enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="#DC2626">
+                    <rect fill="none" height="24" width="24" />
+                    <path
+                        d="M12,2c-5.33,4.55-8,8.48-8,11.8c0,4.98,3.8,8.2,8,8.2s8-3.22,8-8.2C20,10.48,17.33,6.55,12,2z M7.83,14 c0.37,0,0.67,0.26,0.74,0.62c0.41,2.22,2.28,2.98,3.64,2.87c0.43-0.02,0.79,0.32,0.79,0.75c0,0.4-0.32,0.73-0.72,0.75 c-2.13,0.13-4.62-1.09-5.19-4.12C7.01,14.42,7.37,14,7.83,14z" />
+                </svg>
+            </div>
+            <div class="order-1 md:order-2">
+                <h2 class="text-xl font-semibold">Don de sang</h2>
+                <ul class="list-disc list-inside mb-4 mt-2">
+                    <li>
+                        Déroulement&nbsp;: Formulaire d'éligibilité, entretien médical, prélèvement, collation
+                    </li>
+                    <li>
+                        10 minutes de prélèvement (45 minutes sur place)
+                    </li>
+                    <li>
+                        Conditions générales pour donner&nbsp;: 18 à 70 ans, + de 50 kg
+                    </li>
+                    <li>
+                        Délai minimum entre deux dons&nbsp;: 2 mois
+                    </li>
+                </ul>
+                <a class="rounded py-1 px-2 font-bold text-sm bg-slate-600 hover:bg-slate-500"
+                    href="https://dondesang.efs.sante.fr/">En savoir plus</a>
+                <a class="rounded py-1 px-2 font-bold text-sm bg-slate-600 hover:bg-slate-500"
+                    href="https://mon-rdv-dondesang.efs.sante.fr/">Prendre rendez-vous</a>
+            </div>
+            <div class="order-4 md:order-3">
+                <img src="img/don_plasma.png" class="mx-auto rounded-2xl" alt="Infographie don de plasma">
+            </div>
+            <div class="order-3 md:order-4">
+                <h2 class="text-xl font-semibold">Don de plasma</h2>
+                <ul class="list-disc list-inside mb-4 mt-2">
+                    <li>
+                        Déroulement&nbsp;: Formulaire d'éligibilité, entretien médical, prélèvement, collation
+                    </li>
+                    <li>
+                        45 à 60 minutes de prélèvement (1h30 sur place)
+                    </li>
+                    <li>
+                        Conditions générales pour donner&nbsp;: 18 à 65 ans, + de 55 kg
+                    </li>
+                    <li>
+                        Délai minimum entre deux dons&nbsp;: 2 semaines
+                    </li>
+                    <li>
+                        Le sang est restitué après le prélèvement du plasma, il y a donc moins de fatigue qu'après un
+                        don de sang&nbsp;!
+                    </li>
+                </ul>
+                <a class="rounded py-1 px-2 font-bold text-sm bg-slate-600 hover:bg-slate-500"
+                    href="https://dondesang.efs.sante.fr/articles/Le-don-de-plasma">En savoir plus</a>
+                <a class="rounded py-1 px-2 font-bold text-sm bg-slate-600 hover:bg-slate-500"
+                    href="https://mon-rdv-dondesang.efs.sante.fr/">Prendre rendez-vous</a>
+            </div>
+            <div class="order-6 md:order-5">
+                <img src="img/don_plaquettes.png" class="mx-auto rounded-2xl" alt="Infographie don de plaquettes">
+            </div>
+            <div class="order-5 md:order-6">
+                <h2 class="text-xl font-semibold">Don de plaquettes</h2>
+                <ul class="list-disc list-inside mb-4 mt-2">
+                    <li>
+                        Déroulement&nbsp;: Formulaire d'éligibilité, entretien médical, prélèvement, collation
+                    </li>
+                    <li>
+                        90 minutes de prélèvement environ (2h sur place)
+                    </li>
+                    <li>
+                        Conditions générales pour donner&nbsp;: 18 à 65 ans, + de 55 kg
+                    </li>
+                    <li>
+                        Délai minimum entre deux dons&nbsp;: 4 semaines
+                    </li>
+                    <li>
+                        Le sang est restitué après le prélèvement des plaquettes, il y a donc moins de fatigue qu'après
+                        un don de sang !
+                    </li>
+                </ul>
+                <a class="rounded py-1 px-2 font-bold text-sm bg-slate-600 hover:bg-slate-500"
+                    href="https://dondesang.efs.sante.fr/articles/le-don-de-plaquettes-en-parle">En savoir plus</a>
+                <a class="rounded py-1 px-2 font-bold text-sm bg-slate-600 hover:bg-slate-500"
+                    href="https://mon-rdv-dondesang.efs.sante.fr/">Prendre rendez-vous</a>
+            </div>
+            <div class="order-8 md:order-7">
+                <svg class="mx-auto w-20 h-20 lg:w-40 lg:h-40 fill-gray-50" height="800px" width="800px" version="1.1"
+                    id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 511.782 511.782" xml:space="preserve">
+                    <path
+                        d="M498.223,80.207c-11.413-15.04-32.32-15.467-49.067-15.787h-1.813c0-0.853,0-1.813,0-2.667
+			c0-16.107,0-36.053-14.933-47.36c-28.8-21.653-69.867-18.56-93.44,7.147c-20.16,21.867-24.64,53.333-11.093,78.4
+			c2.453,4.48,1.92,9.6-1.173,12.693l-214.4,214.4c-3.2,3.2-8.107,3.84-12.053,1.493c-26.133-14.613-58.56-9.387-80.96,12.907
+			C9.263,351.781,2.756,365.007,0.943,379.301c-2.133,15.467,1.173,29.013,10.027,40.213c13.973,17.707,37.867,24.533,53.44,27.093
+			c0,1.067,0,2.133,0,3.307c0,15.893,0,35.52,12.587,46.4c11.733,10.027,26.667,15.573,42.027,15.467
+			c20.373-0.107,39.68-8.853,53.227-24c22.4-24.853,24.96-54.4,7.04-81.173c-2.667-3.947-2.24-9.28,1.067-12.693l213.12-213.333
+			c3.307-3.307,8.533-3.84,12.48-1.173c27.52,18.56,58.88,15.147,83.84-9.067C515.076,145.807,518.703,107.087,498.223,80.207z
+			M475.716,155.514c-10.24,9.92-31.36,24.107-57.173,6.72c-12.373-8.32-28.907-6.72-39.467,3.84L165.743,379.407
+			c-10.56,10.667-12.053,27.2-3.733,39.68c15.68,23.467,5.867,42.88-5.227,55.04c-17.813,19.733-47.147,22.72-65.6,6.72
+			c-5.12-4.48-5.227-20.053-5.227-30.4c0-5.12,0-9.813-0.427-13.653c-0.533-5.12-4.48-9.067-9.6-9.6
+			c-21.76-2.027-39.68-9.707-48.107-20.267c-5.227-6.507-7.04-14.4-5.653-24c1.28-9.707,5.653-18.773,12.373-25.813
+			c9.707-9.707,22.187-14.827,34.453-14.827c7.36,0,14.72,1.92,21.12,5.44c12.267,6.827,27.52,4.8,37.44-5.12l214.613-214.613
+			c9.92-9.92,11.84-25.173,4.907-37.973c-9.173-16.96-5.973-38.507,8-53.76c16.32-17.707,44.907-19.627,65.067-4.48
+			c6.507,4.907,6.4,18.347,6.4,30.293c0,5.013,0,9.813,0.427,13.973c0.533,5.12,4.48,9.067,9.6,9.6
+			c3.733,0.32,8.107,0.427,12.693,0.533c12.16,0.213,27.413,0.533,32.533,7.36C496.196,112.207,493.529,138.234,475.716,155.514z" />
+                </svg>
+            </div>
+            <div class="order-7 md:order-8">
+                <h2 class="text-xl font-semibold">Don de moelle osseuse</h2>
+                <ul class="list-disc list-inside mb-4 mt-2">
+                    <li>
+                        Inscription sur un registre de donneur après avoir établi sa "carte d'identité biologique" (par
+                        un test salivaire ou une prise de sang, au choix)
+                    </li>
+                    <li>
+                        Vous êtes contacté si un jour un patient est compatible avec vous, le prélèvement a lieu 1 à 3
+                        mois après le contact
+                    </li>
+                    <li>
+                        Deux modes de prélèvement&nbsp;: prise de sang (1 à 2 prélèvements de 4 heures, utilisé dans 80
+                        % des cas) ou prélèvement dans les os du bassin (sous anesthésie générale, 48h
+                        d'hospitalisation)
+                    </li>
+                    <li>
+                        Conditions générales pour donner&nbsp;: 18 à 35 ans au moment de l'inscription,
+                        <a class="underline underline-offset-2 decoration-sky-500 hover:decoration-2"
+                            href="https://www.ameli.fr/assure/sante/themes/surpoids-obesite-adulte/calcul-imc-bilan-medical"
+                            target="_blank">IMC</a> entre 17 et 35
+                    </li>
+                    <li>
+                        Le donneur est suivi tout au long de la procédure, y compris après le don&nbsp;!
+                    </li>
+                </ul>
+                <a class="rounded py-1 px-2 font-bold text-sm bg-slate-600 hover:bg-slate-500"
+                    href="https://www.dondemoelleosseuse.fr/tout-savoir-sur-le-don-de-moelle">En savoir plus</a>
+                <a class="rounded py-1 px-2 font-bold text-sm bg-slate-600 hover:bg-slate-500"
+                    href="https://www.dondemoelleosseuse.fr/se_preinscrire">S'inscrire sur le registre</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-16 px-5 bg-slate-800">
+        <div class="flex flex-wrap justify-center items-center">
+            <div class="grid grid-cols-3 gap-4 text-center">
+                <h1 class="col-span-3 text-3xl font-semibold">Contact</h1>
+                <a class="rounded hover:bg-slate-600 py-2" href="mailto:donutc@assos.utc.fr">
+                    <svg class="mx-auto" width="24px" height="24px" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg" fill="white">
+                        <path d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V8l8 5 8-5v10zm-8-7L4 6h16l-8 5z" />
+                    </svg>
+                </a>
+                <a class="rounded hover:bg-slate-600" href="https://www.instagram.com/jeanmichel_donutc/">
+                    <svg class="mx-auto" width="40" height="40" viewBox="0 0 40 40" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M20 11.25C17.6236 11.25 17.3257 11.2601 16.3924 11.3027C15.461 11.3451 14.8249 11.493 14.2684 11.7094C13.693 11.9329 13.2051 12.2321 12.7186 12.7186C12.2321 13.2051 11.933 13.693 11.7094 14.2684C11.493 14.8249 11.3451 15.461 11.3027 16.3924C11.2601 17.3257 11.25 17.6236 11.25 20C11.25 22.3764 11.2601 22.6743 11.3027 23.6076C11.3451 24.539 11.493 25.1751 11.7094 25.7316C11.9329 26.307 12.2321 26.7949 12.7186 27.2814C13.2051 27.7679 13.693 28.067 14.2684 28.2906C14.8249 28.507 15.461 28.6549 16.3924 28.6973C17.3257 28.7399 17.6236 28.75 20 28.75C22.3764 28.75 22.6743 28.7399 23.6076 28.6973C24.539 28.6549 25.1751 28.507 25.7316 28.2906C26.307 28.0671 26.7949 27.7679 27.2814 27.2814C27.7679 26.7949 28.0671 26.307 28.2907 25.7316C28.507 25.1751 28.6549 24.539 28.6973 23.6076C28.7399 22.6743 28.75 22.3764 28.75 20C28.75 17.6236 28.7399 17.3257 28.6973 16.3924C28.6549 15.461 28.507 14.8249 28.2907 14.2684C28.0671 13.693 27.7679 13.2051 27.2814 12.7186C26.7949 12.2321 26.307 11.9329 25.7316 11.7094C25.1751 11.493 24.539 11.3451 23.6076 11.3027C22.6743 11.2601 22.3764 11.25 20 11.25ZM20 12.8265C22.3363 12.8265 22.6131 12.8355 23.5358 12.8776C24.3889 12.9165 24.8522 13.0591 25.1605 13.1788C25.569 13.3376 25.8604 13.5272 26.1666 13.8334C26.4728 14.1396 26.6624 14.431 26.8212 14.8395C26.9409 15.1478 27.0835 15.6111 27.1224 16.4642C27.1645 17.3869 27.1735 17.6637 27.1735 20C27.1735 22.3363 27.1645 22.6131 27.1224 23.5358C27.0835 24.3889 26.9409 24.8522 26.8212 25.1605C26.6624 25.569 26.4728 25.8604 26.1666 26.1665C25.8604 26.4728 25.569 26.6624 25.1605 26.8211C24.8522 26.9409 24.3889 27.0835 23.5358 27.1223C22.6133 27.1645 22.3366 27.1734 20 27.1734C17.6635 27.1734 17.3868 27.1645 16.4642 27.1223C15.6111 27.0835 15.1478 26.9409 14.8395 26.8211C14.431 26.6624 14.1396 26.4728 13.8335 26.1665C13.5273 25.8604 13.3376 25.569 13.1789 25.1605C13.0591 24.8522 12.9165 24.3889 12.8777 23.5358C12.8355 22.6131 12.8266 22.3363 12.8266 20C12.8266 17.6637 12.8355 17.3869 12.8777 16.4642C12.9165 15.6111 13.0591 15.1478 13.1789 14.8395C13.3376 14.431 13.5272 14.1396 13.8335 13.8334C14.1396 13.5272 14.431 13.3376 14.8395 13.1788C15.1478 13.0591 15.6111 12.9165 16.4642 12.8776C17.3869 12.8355 17.6637 12.8265 20 12.8265Z"
+                            fill="white" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M20.0001 22.9177C18.3893 22.9177 17.0834 21.6119 17.0834 20.0011C17.0834 18.3902 18.3893 17.0844 20.0001 17.0844C21.6109 17.0844 22.9168 18.3902 22.9168 20.0011C22.9168 21.6119 21.6109 22.9177 20.0001 22.9177ZM20.0001 15.5078C17.5185 15.5078 15.5068 17.5195 15.5068 20.0011C15.5068 22.4826 17.5185 24.4943 20.0001 24.4943C22.4816 24.4943 24.4933 22.4826 24.4933 20.0011C24.4933 17.5195 22.4816 15.5078 20.0001 15.5078V15.5078ZM25.7209 15.3303C25.7209 15.9102 25.2508 16.3803 24.6708 16.3803C24.091 16.3803 23.6209 15.9102 23.6209 15.3303C23.6209 14.7504 24.091 14.2803 24.6708 14.2803C25.2507 14.2803 25.7209 14.7504 25.7209 15.3303Z"
+                            fill="white" />
+                    </svg>
+                </a>
+                <a class="rounded hover:bg-slate-600" href="https://www.facebook.com/don.utc.1">
+                    <svg class="mx-auto" width="40" height="40" viewBox="0 0 40 40" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M17.8125 17.0833H15.625V20H17.8125V28.75H21.4583V20H24.114L24.375 17.0833H21.4583V15.8678C21.4583 15.1715 21.5983 14.8958 22.2714 14.8958H24.375V11.25H21.5983C18.9763 11.25 17.8125 12.4043 17.8125 14.6151V17.0833Z"
+                            fill="white" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
