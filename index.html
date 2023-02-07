@@ -15,8 +15,8 @@
         <div class="container mx-auto px-6 py-4 gap-x-4 flex justify-center items-center text-center">
             <img id="logo" src="img/logo.png" class="absolute left-6 h-12 invisible md:visible">
             <a class="rounded py-1 px-2 font-bold text-xs md:text-base hover:bg-slate-600" href="#accueil">Accueil</a>
-            <a class="rounded py-1 px-2 font-bold text-xs md:text-base hover:bg-slate-600" href="#collecte-utc">Collecte
-                à l'UTC</a>
+            <a class="rounded py-1 px-2 font-bold text-xs md:text-base hover:bg-slate-600"
+                href="#collectes">Collectes</a>
             <a class="rounded py-1 px-2 font-bold text-xs md:text-base hover:bg-slate-600" href="#dons">Les différents
                 dons</a>
             <a class="rounded py-1 px-2 font-bold text-xs md:text-base hover:bg-slate-600" href="#contact">Contact</a>
@@ -49,16 +49,42 @@
         </div>
     </section>
 
-    <section id="collecte-utc" class="py-16 px-5 bg-slate-800">
-        <div class="flex flex-wrap justify-center items-center">
+    <section id="collectes" class="py-16 px-5 bg-slate-800">
+        <h1 class="text-center text-3xl w-full font-semibold">Les prochaines collectes</h1>
+        <div class="mx-auto mt-4 mb-10 flex justify-center">
+            <span class="inline-block h-1 w-40 rounded-full bg-blue-500"></span>
+            <span class="mx-1 inline-block h-1 w-3 rounded-full bg-blue-500"></span>
+            <span class="inline-block h-1 w-1 rounded-full bg-blue-500"></span>
+        </div>
+        <div class="flex flex-wrap justify-center items-center gap-y-10">
             <div class="w-full md:w-1/3 p-4 mx-2 text-center">
-                <h1 class="text-2xl">Collecte du XX/XX/2023</h1>
-                <p>
-                    *Infos collecte*
+                <h1 class="text-2xl font-semibold mb-4">Collecte à l'UTC</h1>
+                <p class="font-light">
+                    Date à venir&nbsp;!
                 </p>
             </div>
             <div class="w-full md:w-1/3 p-4 mx-2 text-center">
                 <a class="rounded-full py-2 px-4 text-md lg:text-2xl bg-red-700 hover:bg-red-800" href="#">
+                    Prendre rendez-vous
+                </a>
+            </div>
+            <div class="w-full md:w-1/3 p-4 mx-2 text-center">
+                <h1 class="text-2xl font-semibold mb-4">Collectes à la mairie de Compiègne</h1>
+                <ul class="list font-light">
+                    <li>
+                        Chaque deuxième mercredi et quatrième samedi du mois
+                    </li>
+                    <li>
+                        Uniquement don de sang
+                    </li>
+                    <li>
+                        Situées à l'annexe de la mairie
+                    </li>
+                </ul>
+            </div>
+            <div class="w-full md:w-1/3 p-4 mx-2 text-center">
+                <a class="rounded-full py-2 px-4 text-md lg:text-2xl bg-red-700 hover:bg-red-800"
+                    href="https://mon-rdv-dondesang.efs.sante.fr/liste/collectes?region=14&lieu=COMPIEGNE">
                     Prendre rendez-vous
                 </a>
             </div>
@@ -67,12 +93,12 @@
 
     <section id="dons" class="py-16 px-5">
         <h1 class="text-center text-3xl w-full font-semibold">Les différents types de don</h1>
-        <div class="mx-auto mt-4 flex justify-center">
+        <div class="mx-auto mt-4 mb-10 flex justify-center">
             <span class="inline-block h-1 w-40 rounded-full bg-blue-500"></span>
             <span class="mx-1 inline-block h-1 w-3 rounded-full bg-blue-500"></span>
             <span class="inline-block h-1 w-1 rounded-full bg-blue-500"></span>
         </div>
-        <div class="grid grid-col-1 md:grid-cols-2 w-full lg:w-4/5 gap-8 items-center justify-center mt-10 mx-auto">
+        <div class="grid grid-col-1 md:grid-cols-2 w-full lg:w-4/5 gap-8 items-center justify-center mx-auto">
             <div class="order-2 md:order-1">
                 <svg class="mx-auto w-20 h-20 lg:w-40 lg:h-40" xmlns="http://www.w3.org/2000/svg"
                     enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="#DC2626">
@@ -83,7 +109,7 @@
             </div>
             <div class="order-1 md:order-2">
                 <h2 class="text-xl font-semibold">Don de sang</h2>
-                <ul class="list-disc list-inside mb-4 mt-2">
+                <ul class="list-disc list-inside mb-4 mt-2 font-light">
                     <li>
                         Déroulement&nbsp;: Formulaire d'éligibilité, entretien médical, prélèvement, collation
                     </li>
@@ -107,7 +133,7 @@
             </div>
             <div class="order-3 md:order-4">
                 <h2 class="text-xl font-semibold">Don de plasma</h2>
-                <ul class="list-disc list-inside mb-4 mt-2">
+                <ul class="list-disc list-inside mb-4 mt-2 font-light">
                     <li>
                         Déroulement&nbsp;: Formulaire d'éligibilité, entretien médical, prélèvement, collation
                     </li>
@@ -135,7 +161,7 @@
             </div>
             <div class="order-5 md:order-6">
                 <h2 class="text-xl font-semibold">Don de plaquettes</h2>
-                <ul class="list-disc list-inside mb-4 mt-2">
+                <ul class="list-disc list-inside mb-4 mt-2 font-light">
                     <li>
                         Déroulement&nbsp;: Formulaire d'éligibilité, entretien médical, prélèvement, collation
                     </li>
@@ -182,7 +208,7 @@
             </div>
             <div class="order-7 md:order-8">
                 <h2 class="text-xl font-semibold">Don de moelle osseuse</h2>
-                <ul class="list-disc list-inside mb-4 mt-2">
+                <ul class="list-disc list-inside mb-4 mt-2 font-light">
                     <li>
                         Inscription sur un registre de donneur après avoir établi sa "carte d'identité biologique" (par
                         un test salivaire ou une prise de sang, au choix)
@@ -192,8 +218,8 @@
                         mois après le contact
                     </li>
                     <li>
-                        Deux modes de prélèvement&nbsp;: prise de sang (1 à 2 prélèvements de 4 heures, utilisé dans 80
-                        % des cas) ou prélèvement dans les os du bassin (sous anesthésie générale, 48h
+                        Deux modes de prélèvement&nbsp;: prise de sang (1 à 2 prélèvements de 4 heures, utilisé dans
+                        80&nbsp;% des cas) ou prélèvement dans les os du bassin (sous anesthésie générale, 48h
                         d'hospitalisation)
                     </li>
                     <li>
