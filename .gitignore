@@ -1,0 +1,4 @@
+# Ignore tailwind executables
+
+tailwind*
+!tailwind.config.js
