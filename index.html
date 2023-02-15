@@ -13,15 +13,17 @@
 <body class="bg-white text-black dark:bg-slate-700 dark:text-white">
 
     <nav class="container mx-auto px-6 py-4 gap-x-4 flex items-center">
-        <img id="logo" src="img/logo.png" class="px-2 h-12 hidden md:flex">
-        <div class="mr-auto md:mx-auto text-center">
-            <a class="rounded py-1 px-2 font-bold text-xs md:text-base hover:bg-slate-300 dark:hover:bg-slate-600"
+        <img id="logo" src="img/logo.png" class="px-2 h-12 hidden sm:flex">
+        <div class="mr-auto sm:mx-auto text-center">
+            <a class="rounded py-1 px-2 font-bold text-xs sm:text-base hover:bg-slate-300 dark:hover:bg-slate-600"
                 href="#accueil">Accueil</a>
-            <a class="rounded py-1 px-2 font-bold text-xs md:text-base hover:bg-slate-300 dark:hover:bg-slate-600"
+            <a class="rounded py-1 px-2 font-bold text-xs sm:text-base hover:bg-slate-300 dark:hover:bg-slate-600"
                 href="#collectes">Collectes</a>
-            <a class="rounded py-1 px-2 font-bold text-xs md:text-base hover:bg-slate-300 dark:hover:bg-slate-600"
+            <a class="rounded py-1 px-2 font-bold text-xs sm:text-base hover:bg-slate-300 dark:hover:bg-slate-600 sm:hidden"
+                href="#dons">Dons</a>
+            <a class="rounded py-1 px-2 font-bold text-xs sm:text-base hover:bg-slate-300 dark:hover:bg-slate-600 hidden sm:inline-block"
                 href="#dons">Les différents dons</a>
-            <a class="rounded py-1 px-2 font-bold text-xs md:text-base hover:bg-slate-300 dark:hover:bg-slate-600"
+            <a class="rounded py-1 px-2 font-bold text-xs sm:text-base hover:bg-slate-300 dark:hover:bg-slate-600"
                 href="#contact">Contact</a>
         </div>
         <button onclick="toggleDarkMode()" class="rounded hover:bg-slate-300 dark:hover:bg-slate-600 py-1 px-2">
@@ -71,20 +73,20 @@
             <span class="mx-1 inline-block h-1 w-3 rounded-full bg-blue-600 dark:bg-blue-500"></span>
             <span class="inline-block h-1 w-1 rounded-full bg-blue-600 dark:bg-blue-500"></span>
         </div>
-        <div class="flex flex-wrap justify-center items-center gap-y-10">
-            <div class="w-full md:w-1/3 p-4 mx-2 text-center">
+        <div class="flex flex-wrap justify-center items-center gap-y-10 w-full xl:w-2/3 mx-auto px-10 xl:px-0">
+            <div class="w-full md:w-1/2 p-4 text-center">
                 <h1 class="text-2xl font-semibold mb-4">Collecte à l'UTC</h1>
                 <p class="dark:font-light">
                     Date à venir&nbsp;!
                 </p>
             </div>
-            <div class="w-full md:w-1/3 p-4 mx-2 text-center">
+            <div class="w-full md:w-1/2 p-4 text-center">
                 <a class="rounded-full py-2 px-4 text-md lg:text-2xl bg-red-600 hover:bg-red-700 dark:bg-red-700 dark:hover:bg-red-800"
                     href="#">
                     Prendre rendez-vous
                 </a>
             </div>
-            <div class="w-full md:w-1/3 p-4 mx-2 text-center">
+            <div class="w-full md:w-1/2 p-4 text-center">
                 <h1 class="text-2xl font-semibold mb-4">Collectes à la mairie de Compiègne</h1>
                 <ul class="list dark:font-light">
                     <li>
@@ -98,7 +100,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="w-full md:w-1/3 p-4 mx-2 text-center">
+            <div class="w-full md:w-1/2 p-4 text-center">
                 <a class="rounded-full py-2 px-4 text-md lg:text-2xl bg-red-600 hover:bg-red-700 dark:bg-red-700 dark:hover:bg-red-800"
                     href="https://mon-rdv-dondesang.efs.sante.fr/liste/collectes?region=14&lieu=COMPIEGNE">
                     Prendre rendez-vous
